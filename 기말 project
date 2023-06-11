@@ -3,7 +3,7 @@ library(jsonlite)
 library(rvest)
 library(tidyverse)
 
-##롯데렌탈 데이터
+##롯데렌탈 데이터 
 lotte_url <- "https://api.finance.naver.com/siseJson.naver?symbol=089860&requestType=1&startTime=20210903&endTime=20230610&timeframe=week"
 lotte_rent <- GET(lotte_url)
 lotte_data <- content(lotte_rent, "text", encoding = "UTF-8")
@@ -14,6 +14,10 @@ colnames(lotte_rent_df) <- lotte_rent_df[1, ]
 lotte_rent_df <- lotte_rent_df[-1, ]
 rownames(lotte_rent_df) <- NULL
 lotte_rent_df
+##롯데렌탈 시가, 거래량 그래프
+par(mfrow=c(1,2))
+plot(lotte_rent_df$시가,type="l", main = "롯데렌탈 시가")
+plot(lotte_rent_df$거래량,type="l", main = "롯데렌탈 거래량")
 ##SK렌터카 데이터
 sk_url <- "https://api.finance.naver.com/siseJson.naver?symbol=068400&requestType=1&startTime=20210903&endTime=20230610&timeframe=week"
 sk_rent <- GET(sk_url)
@@ -25,6 +29,9 @@ colnames(sk_rent_df) <- sk_rent_df[1, ]
 sk_rent_df <- sk_rent_df[-1, ]
 rownames(sk_rent_df) <- NULL
 sk_rent_df
+##SK렌터카 시가, 거래량 그래프
+plot(sk_rent_df$시가,type="l", main = "SK렌터카 시가")
+plot(sk_rent_df$거래량,type="l", main = "SK렌터카 거래량")
 ##롯데렌탈 기업실적 데이터
 lotte_url_1 <- "https://finance.naver.com/item/main.naver?code=089860"
 lotte_html <- read_html(lotte_url_1, encoding="euc-kr")
