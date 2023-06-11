@@ -1,1 +1,2 @@
 hist(a)
+hist(b)
