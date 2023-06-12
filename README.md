@@ -40,7 +40,7 @@ plot(lotte_rent_date, lotte_rent_df$거래량, type = "l", xlab = "Date", ylab =
 롯데렌탈 시가, 거래량.png
 
 [linked phrase](https://github.com/jeungyuna/my_repo2/blob/main/%EB%A1%AF%EB%8D%B0%EB%A0%8C%ED%83%88%20%EC%8B%9C%EA%B0%80%2C%20%EA%B1%B0%EB%9E%98%EB%9F%89.png)
-<https://github.com/jeungyuna/my_repo2/blob/main/%EB%A1%AF%EB%8D%B0%EB%A0%8C%ED%83%88%20%EC%8B%9C%EA%B0%80%2C%20%EA%B1%B0%EB%9E%98%EB%9F%89.png>
+
 
 # SK렌터카 데이터
 
