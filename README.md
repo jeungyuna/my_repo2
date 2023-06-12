@@ -39,6 +39,8 @@ plot(lotte_rent_date, lotte_rent_df$거래량, type = "l", xlab = "Date", ylab =
 ![이미지](롯데렌탈 시가, 거래량.png)
 롯데렌탈 시가, 거래량.png
 
+[linked phrase](http://example.com)
+
 
 # SK렌터카 데이터
 
