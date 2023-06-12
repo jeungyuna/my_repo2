@@ -28,7 +28,14 @@ par(mfrow=c(1,2))
 lotte_rent_date <- as.Date(lotte_rent_df$날짜, format = "%Y%m%d")
 plot(lotte_rent_date, lotte_rent_df$시가, type = "l", xlab = "Date", ylab = "시가", main = "롯데렌탈 시가차트")
 plot(lotte_rent_date, lotte_rent_df$거래량, type = "l", xlab = "Date", ylab = "거래량", main = "롯데렌탈 거래량")
+png("롯데렌탈 시가, 거래량.png", width = 800, height = 600, res = 300)
+plot(lotte_rent_date, lotte_rent_df$시가, type = "l", xlab = "Date", ylab = "시가", main = "롯데렌탈 시가차트")
+plot(lotte_rent_date, lotte_rent_df$거래량, type = "l", xlab = "Date", ylab = "거래량", main = "롯데렌탈 거래량")
+dev.off()
+![이미지](롯데렌탈 시가, 거래량.png)
 
+plot(lotte_rent_date, lotte_rent_df$시가, type = "l", xlab = "Date", ylab = "시가", main = "롯데렌탈 시가차트")
+plot(lotte_rent_date, lotte_rent_df$거래량, type = "l", xlab = "Date", ylab = "거래량", main = "롯데렌탈 거래량")
 ![이미지](롯데렌탈 시가, 거래량.png)
 
 
