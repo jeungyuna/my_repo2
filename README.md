@@ -37,6 +37,7 @@ dev.off()
 plot(lotte_rent_date, lotte_rent_df$시가, type = "l", xlab = "Date", ylab = "시가", main = "롯데렌탈 시가차트")
 plot(lotte_rent_date, lotte_rent_df$거래량, type = "l", xlab = "Date", ylab = "거래량", main = "롯데렌탈 거래량")
 ![이미지](롯데렌탈 시가, 거래량.png)
+롯데렌탈 시가, 거래량.png
 
 
 # SK렌터카 데이터
