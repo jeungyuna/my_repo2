@@ -1,13 +1,3 @@
----
-title: "README"
-output: pdf_document
-date: "2023-06-21"
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## 금융통계 기말대체 프로젝트
 
 <br/>
