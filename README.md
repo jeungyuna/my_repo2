@@ -181,7 +181,7 @@ lotte_table <- lotte_html %>%
 
 <br/>
 
-<img src="C:\Users\82103\Desktop\전북대\금융통계\롯데렌탈 기업실적 데이터프레임.png"/>
+<img src="https://github.com/jeungyuna/my_repo2/blob/main/%EB%A1%AF%EB%8D%B0%EB%A0%8C%ED%83%88%20%EA%B8%B0%EC%97%85%EC%8B%A4%EC%A0%81%20%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%94%84%EB%A0%88%EC%9E%84.png"/>
 
 <br/>
 
@@ -202,7 +202,7 @@ sk_table <- sk_html %>%
 
 <br/>
 
-<img src="C:\Users\82103\Desktop\전북대\금융통계\SK렌터카 기업실적 데이터프레임.png"/>
+<img src="https://github.com/jeungyuna/my_repo2/blob/main/SK%EB%A0%8C%ED%84%B0%EC%B9%B4%20%EA%B8%B0%EC%97%85%EC%8B%A4%EC%A0%81%20%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%94%84%EB%A0%88%EC%9E%84.png"/>
 
 <br/>
 
@@ -240,7 +240,7 @@ legend("topleft", legend = c("lotte", "sk"), pch = c(1, 2), col = c("blue", "red
 
 <br/>
 
-<img src="C:\Users\82103\Desktop\전북대\금융통계\롯데렌탈, SK렌터카 매출액.png"/>
+<img src="https://github.com/jeungyuna/my_repo2/blob/main/%EB%A1%AF%EB%8D%B0%EB%A0%8C%ED%83%88%2C%20SK%EB%A0%8C%ED%84%B0%EC%B9%B4%20%EB%A7%A4%EC%B6%9C%EC%95%A1.png"/>
 
 <br/>
 
@@ -282,7 +282,7 @@ legend("topright", legend = c("lotte", "sk"), pch = c(1, 2), col = c("blue", "re
 
 <br/>
 
-<img src="C:\Users\82103\Desktop\전북대\금융통계\롯데렌탈, SK렌터카 부채비율.png"/>
+<img src="https://github.com/jeungyuna/my_repo2/blob/main/%EB%A1%AF%EB%8D%B0%EB%A0%8C%ED%83%88%2C%20SK%EB%A0%8C%ED%84%B0%EC%B9%B4%20%EB%B6%80%EC%B1%84%EB%B9%84%EC%9C%A8.png"/>
 
 <br/>
 
@@ -341,7 +341,7 @@ axis(1, at = 1:5, labels = colnames(siga))
 
 <br/>
 
-<img src="C:\Users\82103\Desktop\전북대\금융통계\각 기업의 시가총액, 매출액.png"/>
+<img src="https://github.com/jeungyuna/my_repo2/blob/main/%EA%B0%81%20%EA%B8%B0%EC%97%85%EC%9D%98%20%EC%8B%9C%EA%B0%80%EC%B4%9D%EC%95%A1%2C%20%EB%A7%A4%EC%B6%9C%EC%95%A1.png"/>
 
 <br/>
 
