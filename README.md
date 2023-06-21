@@ -75,6 +75,7 @@ lotte_rent_df
 <br/>
 
 <img src="C:\Users\82103\Desktop\전북대\금융통계\롯데렌탈 차트 데이터프레임.png"/>
+![img](롯데렌탈 차트 데이터프레임.png)
 
 <br/>
 
