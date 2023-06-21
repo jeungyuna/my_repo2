@@ -75,7 +75,6 @@ lotte_rent_df
 <br/>
 
 <img src="https://github.com/jeungyuna/my_repo2/blob/main/SK%EB%A0%8C%ED%84%B0%EC%B9%B4%20%EC%B0%A8%ED%8A%B8%20%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%94%84%EB%A0%88%EC%9E%84.png"/>
-![img]("https://github.com/jeungyuna/my_repo2/blob/main/SK%EB%A0%8C%ED%84%B0%EC%B9%B4%20%EC%B0%A8%ED%8A%B8%20%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%94%84%EB%A0%88%EC%9E%84.png")
 
 <br/>
 
@@ -107,7 +106,7 @@ sk_rent_df
 
 <br/>
 
-<img src="C:\Users\82103\Desktop\전북대\금융통계\SK렌터카 차트 데이터프레임.png"/>
+<img src="https://github.com/jeungyuna/my_repo2/blob/main/SK%EB%A0%8C%ED%84%B0%EC%B9%B4%20%EC%B0%A8%ED%8A%B8%20%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%94%84%EB%A0%88%EC%9E%84.png"/>
 
 <br/>
 
@@ -131,7 +130,7 @@ plot(lotte_rent_date, lotte_rent_df$거래량, type = "l", xlab = "Date", ylab =
 
 <br/>
 
-<img src="C:\Users\82103\Desktop\전북대\금융통계\롯데렌탈 시가, 거래량.png"/>
+<img src="https://github.com/jeungyuna/my_repo2/blob/main/%EB%A1%AF%EB%8D%B0%EB%A0%8C%ED%83%88%20%EC%8B%9C%EA%B0%80%2C%20%EA%B1%B0%EB%9E%98%EB%9F%89.png"/>
 
 <br/>
 
@@ -153,9 +152,7 @@ plot(sk_rent_date, sk_rent_df$거래량, type = "l", xlab = "Date", ylab = "거�
 
 <br/>
 
-![img](C:%5CUsers%5C82103%5CDesktop%5C%EC%A0%84%EB%B6%81%EB%8C%80%5C%EA%B8%88%EC%9C%B5%ED%86%B5%EA%B3%84%5CSK%EB%A0%8C%ED%8A%B8%EC%B9%B4%20%EC%8B%9C%EA%B0%80,%20%EA%B1%B0%EB%9E%98%EB%9F%89.png)
-
-<img src="C:\Users\82103\Desktop\전북대\금융통계\SK렌트카 시가, 거래량.png"/>
+<img src="https://github.com/jeungyuna/my_repo2/blob/main/SK%EB%A0%8C%ED%8A%B8%EC%B9%B4%20%EC%8B%9C%EA%B0%80%2C%20%EA%B1%B0%EB%9E%98%EB%9F%89.png"/>
 
 <br/>
 
